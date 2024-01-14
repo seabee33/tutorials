@@ -1,0 +1,19 @@
+*{font-family: sans-serif;}
+
+
+.mtitle{
+	font-size: 30px;
+}
+
+.tag{
+	padding: 5px 10px;
+	border-radius: 10px;
+}
+
+.bggreen{
+	background-color: rgba(0, 128, 0, 0.527);
+}
+
+.bgred{
+	background-color: rgba(255, 0, 0, 0.438);
+}

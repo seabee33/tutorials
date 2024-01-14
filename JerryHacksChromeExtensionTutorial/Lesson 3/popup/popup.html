@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="bulma.min.css">
+</head>
+<body>
+
+
+    <div class="container m-3">
+        <h1 class="title">
+            Global Entry Drop
+        </h1>
+        
+        <div class="field">
+            <label class="label">Status</label>
+            <span class="tag is-success">Running</span>
+            <span class="tag is-danger">Stopped</span>
+        </div>
+
+    </div>
+    <div class="container m-3">
+        
+        
+        <div class="field">
+            <label class="label">Location ID</label>
+            <div class="select">
+                <select id="locationId">
+                    
+                </select>
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Start date</label>
+            <div class="control">
+                <input type="date" class="input" id="startDate">
+            </div>    
+        </div>
+        <div class="field">
+            <label class="label">Stop date</label>
+            <div class="control">
+                <input type="date" class="input" id="endDate">
+            </div>    
+        </div>
+    </div>
+
+    <div class="container m-3">
+        <button class="button is-success is-fullwidth" id="startButton">Save & Restart</button>
+    </div>
+    <div class="container m-3">
+        <button class="button is-danger is-fullwidth" id="stopButton">Stop</button>
+    </div>
+
+
+</body>
+</html>
